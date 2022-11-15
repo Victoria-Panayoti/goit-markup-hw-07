@@ -1,12 +1,11 @@
-.feature-list {
+.features {
   display: flex;
   gap: 30px;
   li {
     width: 270px;
   }
 }
-
-.icon-block {
+.features__icon {
   display: flex;
   height: 120px;
   background: var(--bcg-secondary);
@@ -16,13 +15,16 @@
   margin-bottom: 30px;
 }
 
-.feature-list-title {
+.features__title {
   @include font(14px, 1.14, 700, 0.03em);
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
-.feature-list-txt {
+.features__txt {
   @include font(14px, 1.71, null, 0.03em);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }

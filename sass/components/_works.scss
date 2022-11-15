@@ -1,7 +1,7 @@
 .works {
   padding-top: 0;
 }
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -9,14 +9,14 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
-.work-thumb {
+.work__thumb {
   position: relative;
 }
-.work-name {
+.work__name {
   position: absolute;
   bottom: 0;
   width: 100%;
