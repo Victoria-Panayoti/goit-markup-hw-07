@@ -1,0 +1,28 @@
+.feature-list {
+  display: flex;
+  gap: 30px;
+  li {
+    width: 270px;
+  }
+}
+
+.icon-block {
+  display: flex;
+  height: 120px;
+  background: var(--bcg-secondary);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.feature-list-title {
+  @include font(14px, 1.14, 700, 0.03em);
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+.feature-list-txt {
+  @include font(14px, 1.71, null, 0.03em);
+  color: var(--primary-text-color);
+}
